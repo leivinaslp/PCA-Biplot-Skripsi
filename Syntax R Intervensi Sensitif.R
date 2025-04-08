@@ -7,6 +7,7 @@ str(data)
 # MATRIKS DATA Y
 Y <- as.matrix(data[,11:19])
 head(Y)
+summary(Y)
 
 # IDENTIFIKASI OUTLIER
 # Menghitung rata-rata dan matriks kovarians
